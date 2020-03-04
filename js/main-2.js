@@ -73,10 +73,12 @@ console.log('-----------------------------');
 
 // Play with prompt and alert //
 
-let name = prompt('Koks tavo vardas?','?');
+let name = prompt('Koks tavo vardas?','');
 
 if ( name == 'Julius') {
     alert('TAIP');
-} else {
-    alert('NE!');
+} else if ( name == 'Tomas') {
+    alert('Na, kad nelabai :D');
+} else  {
+    alert('Ne...')
 }
