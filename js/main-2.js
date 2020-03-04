@@ -71,11 +71,12 @@ console.log(sum);
 console.log('-----------------------------');
 
 
-let names = 'tomas';
-if ( names == 'Julius') {
-    console.log('Taip, tai veikia!')
-} else if ( names == 'Tomas') {
-    console.log('.......')
+// Play with prompt and alert //
+
+let name = prompt('Koks tavo vardas?','?');
+
+if ( name == 'Julius') {
+    alert('TAIP');
 } else {
-    console.log('shit happens')
+    alert('NE!');
 }
